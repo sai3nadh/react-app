@@ -7,14 +7,16 @@ import './App.css'
 import Header from './header/Header.jsx'
 import Footer from './footer/Footer.jsx'
 import Home from './pages/home/Home.jsx'
-
+import Card from './pages/card/Card.jsx'
 function App() {
 
 
   return (
     <>
      <Header/>
-     <Home/>
+     <Card/>
+     <Card/>
+     <Card/>
      <Footer/>
     </>
   )
