@@ -10,6 +10,8 @@ import Home from './pages/home/Home.jsx'
 import Card from './pages/card/Card.jsx'
 import Button from './pages/Button/Button.jsx'
 import Student from './pages/Student/Student.jsx'
+import Hook from './pages/Hook/Hook.jsx'
+import Title from './pages/Title/Title.jsx'
 
 function App() {
 
@@ -17,6 +19,10 @@ function App() {
   return (
     <>
      <Header/>
+
+    <Title></Title>
+    <Hook/>
+     <hr></hr>
     <Student name="Student-prop" age={20} isStudent={true}></Student>
     <Student name="John" age={40} isStudent={false}></Student>
     <Student name="Mike" age={35} isStudent={true}></Student>
