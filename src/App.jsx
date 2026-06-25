@@ -12,6 +12,7 @@ import Button from './pages/Button/Button.jsx'
 import Student from './pages/Student/Student.jsx'
 import Hook from './pages/Hook/Hook.jsx'
 import Title from './pages/Title/Title.jsx'
+import Cars from './pages/Cars/Cars.jsx'
 
 function App() {
 
@@ -20,7 +21,8 @@ function App() {
     <>
      <Header/>
 
-    <Title></Title>
+    {/* <Title></Title> */} // update title
+    <Cars></Cars>
     <Hook/>
      <hr></hr>
     <Student name="Student-prop" age={20} isStudent={true}></Student>
