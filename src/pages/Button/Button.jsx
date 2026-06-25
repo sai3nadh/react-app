@@ -7,10 +7,21 @@ function Button(){
         border: "none",
         cursor: "pointer",
         }
-    return(
-        <button style={styles}> Button-test
 
-        </button>
+    const handleClick = () => alert("clicked");
+    const handleClick2 = (e) => console.log(e);
+    return(
+        <>
+            <button style={styles}
+                    onClick={handleClick}> 
+                Button-test
+            </button>
+
+            <button style={styles}
+                    onClick={handleClick2}> 
+                Button-event
+            </button>
+        </>
     );
 }
 

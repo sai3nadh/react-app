@@ -17,6 +17,7 @@ function Student({ name = "Guest", age = 19, isStudent = false }) {
             <p>Name: {name}</p>
             <p>Age: {age}</p>
             <p>Student: {isStudent ? "yes" : "no"}</p>
+            <h3>{isStudent ? "I am Student" : "NOT STUDENT"}</h3>
         </div>
     );
 }
