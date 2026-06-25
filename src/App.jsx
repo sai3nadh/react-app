@@ -13,16 +13,17 @@ import Student from './pages/Student/Student.jsx'
 import Hook from './pages/Hook/Hook.jsx'
 import Title from './pages/Title/Title.jsx'
 import Cars from './pages/Cars/Cars.jsx'
-
+import ComponentA from './pages/Components/ComponentA/ComponentA.jsx'
 function App() {
 
 
   return (
     <>
-     <Header/>
+    <ComponentA/>
+     {/* <Header/> */}
 
     {/* <Title></Title> */} // update title
-    <Cars></Cars>
+    {/* <Cars></Cars>
     <Hook/>
      <hr></hr>
     <Student name="Student-prop" age={20} isStudent={true}></Student>
@@ -34,7 +35,7 @@ function App() {
      <Card/>
      <Card/>
      <Card/>
-     <Footer/>
+     <Footer/> */}
     </>
   )
 }
